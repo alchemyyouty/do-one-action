@@ -1,0 +1,5 @@
+﻿<linker>
+  <assembly fullname="do-one-action">
+    <type fullname="*" required="true" />
+  </assembly>
+</linker>
