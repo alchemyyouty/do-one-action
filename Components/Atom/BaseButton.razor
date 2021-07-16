@@ -1,0 +1,10 @@
+﻿<input type="button" @onclick="DefalutEvent" value="@ButtonText" />
+
+@code
+{
+    [Parameter]
+    public string ButtonText { get; set; } = "defalut text";
+
+    [Parameter]
+    public EventCallback<MouseEventArgs> DefalutEvent { get; set; }
+}

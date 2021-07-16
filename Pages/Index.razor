@@ -1,7 +1,14 @@
 ﻿@page "/"
+@using do_one_action.Components.Atom
 
 <h1>Do One Action</h1>
 
-Welcome to my new app.
+<BaseButton DefalutEvent="@CallConsole"></BaseButton>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@code
+{
+    private void CallConsole(MouseEventArgs e)
+    {
+        Console.WriteLine("Clicked!", e);
+    }
+}

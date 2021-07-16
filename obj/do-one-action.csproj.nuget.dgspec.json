@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ysspe\\Desktop\\WorkSpace\\do-one-action\\do-one-action.csproj": {}
+    "/Users/rlsuu159380/Desktop/Youtyspace/do-one-action/do-one-action.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ysspe\\Desktop\\WorkSpace\\do-one-action\\do-one-action.csproj": {
+    "/Users/rlsuu159380/Desktop/Youtyspace/do-one-action/do-one-action.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ysspe\\Desktop\\WorkSpace\\do-one-action\\do-one-action.csproj",
+        "projectUniqueName": "/Users/rlsuu159380/Desktop/Youtyspace/do-one-action/do-one-action.csproj",
         "projectName": "do-one-action",
-        "projectPath": "C:\\Users\\ysspe\\Desktop\\WorkSpace\\do-one-action\\do-one-action.csproj",
-        "packagesPath": "C:\\Users\\ysspe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ysspe\\Desktop\\WorkSpace\\do-one-action\\obj\\",
+        "projectPath": "/Users/rlsuu159380/Desktop/Youtyspace/do-one-action/do-one-action.csproj",
+        "packagesPath": "/Users/rlsuu159380/.nuget/packages/",
+        "outputPath": "/Users/rlsuu159380/Desktop/Youtyspace/do-one-action/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ysspe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rlsuu159380/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }
