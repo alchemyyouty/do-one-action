@@ -83,7 +83,7 @@ using do_one_action.Components;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\ysspe\Desktop\WorkSpace\do-one-action\Pages\Index.razor"
+#line 12 "C:\Users\ysspe\Desktop\WorkSpace\do-one-action\_Imports.razor"
 using do_one_action.Components.Atom;
 
 #line default
@@ -98,7 +98,7 @@ using do_one_action.Components.Atom;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "C:\Users\ysspe\Desktop\WorkSpace\do-one-action\Pages\Index.razor"
+#line 10 "C:\Users\ysspe\Desktop\WorkSpace\do-one-action\Pages\Index.razor"
  
     public string EntryButton { get; set; } = "Create the goal";
 

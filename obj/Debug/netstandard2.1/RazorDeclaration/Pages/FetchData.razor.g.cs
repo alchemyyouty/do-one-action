@@ -82,6 +82,13 @@ using do_one_action.Components;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\Users\ysspe\Desktop\WorkSpace\do-one-action\_Imports.razor"
+using do_one_action.Components.Atom;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
     public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
     {

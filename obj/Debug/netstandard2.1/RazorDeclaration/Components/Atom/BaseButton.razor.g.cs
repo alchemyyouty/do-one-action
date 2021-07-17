@@ -82,6 +82,13 @@ using do_one_action.Components;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\Users\ysspe\Desktop\WorkSpace\do-one-action\_Imports.razor"
+using do_one_action.Components.Atom;
+
+#line default
+#line hidden
+#nullable disable
     public partial class BaseButton : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
