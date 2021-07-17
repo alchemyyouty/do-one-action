@@ -3,10 +3,12 @@
 
 <h1>Do One Action</h1>
 
-<BaseButton DefalutEvent="@CallConsole"></BaseButton>
+<BaseButton ClickEvent="@CallConsole" ButtonText="@EntryButton"></BaseButton>
 
 @code
 {
+    public string EntryButton { get; set; } = "Create the goal";
+
     private void CallConsole(MouseEventArgs e)
     {
         Console.WriteLine("Clicked!", e);
