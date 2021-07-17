@@ -1,14 +1,17 @@
 ﻿@page "/"
 
-<div class="container mt-100">
+<div class="container mt-5">
     <h1 class="text-center">Do One Action</h1>
 </div>
 
-<BaseButton ClickEvent="@CallConsole" ButtonText="@EntryButton"></BaseButton>
+<NavLink href="@EntryLink" Match="NavLinkMatch.All">
+    <BaseButton ClickEvent="@CallConsole" ButtonText="@EntryButton"></BaseButton>
+</NavLink>
 
 @code
 {
     public string EntryButton { get; set; } = "Create the goal";
+    public string EntryLink { get; set; } = "counter";
 
     private void CallConsole(MouseEventArgs e)
     {

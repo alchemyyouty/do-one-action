@@ -745,8 +745,7 @@ C:\Users\ysspe\Desktop\WorkSpace\do-one-action\obj\Debug\netstandard2.1\do-one-a
 C:\Users\ysspe\Desktop\WorkSpace\do-one-action\obj\Debug\netstandard2.1\blazor\serviceworkers\wwwroot\service-worker.js
 C:\Users\ysspe\Desktop\WorkSpace\do-one-action\obj\Debug\netstandard2.1\blazor\service-worker-assets.js
 C:\Users\ysspe\Desktop\WorkSpace\do-one-action\obj\Debug\netstandard2.1\do-one-action.csprojAssemblyReference.cache
-C:\Users\ysspe\Desktop\WorkSpace\do-one-action\obj\Debug\netstandard2.1\integrity\zINQ0CD9DikNCQPr_m3l0cAk2aJeR0PHxURXf8iD-s8=.hash
-C:\Users\ysspe\Desktop\WorkSpace\do-one-action\obj\Debug\netstandard2.1\integrity\BZN1GQ1hWVjzwN4LFsYyB6jmSlHgkEHzKBLPizZRLyw=.hash
-C:\Users\ysspe\Desktop\WorkSpace\do-one-action\obj\Debug\netstandard2.1\integrity\CXeYnoPoxN1xzEMP4ZKGFeBRq9f34uuuXaFh-cRQrRM=.hash
-C:\Users\ysspe\Desktop\WorkSpace\do-one-action\obj\Debug\netstandard2.1\integrity\vRtjFWaTxkesALV-7Yun4z0lllH0peiEVz4zNpuEzrM=.hash
-C:\Users\ysspe\Desktop\WorkSpace\do-one-action\obj\Debug\netstandard2.1\integrity\CE2btgvXzQaxcQT9ExJUGyJpH-bhoSuVXwEeClkjv80=.hash
+C:\Users\ysspe\Desktop\WorkSpace\do-one-action\obj\Debug\netstandard2.1\integrity\nqwZrTk92okp0-KbkozCUo5Z3QN_lNsULGme1uNr8Nw=.hash
+C:\Users\ysspe\Desktop\WorkSpace\do-one-action\obj\Debug\netstandard2.1\integrity\-gLifC9v0NG5yOtZVG8pvWuzOf3DCkw4MWmgSWX3VQ8=.hash
+C:\Users\ysspe\Desktop\WorkSpace\do-one-action\obj\Debug\netstandard2.1\integrity\QCqlxjLlj7WF1F8bZJHd-bgykEe8LXutrni0wt6rpZI=.hash
+C:\Users\ysspe\Desktop\WorkSpace\do-one-action\obj\Debug\netstandard2.1\integrity\dmI_bbRxyHf9MFe014gC1Es_97uq45K5VZoT4xtoWno=.hash

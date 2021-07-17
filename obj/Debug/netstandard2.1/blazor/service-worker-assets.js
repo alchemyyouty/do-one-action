@@ -69,7 +69,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-CXeYnoPoxN1xzEMP4ZKGFeBRq9f34uuuXaFh\/cRQrRM=",
+      "hash": "sha256-nqwZrTk92okp0\/KbkozCUo5Z3QN+lNsULGme1uNr8Nw=",
       "url": "_framework\/_bin\/do-one-action.dll"
     },
     {
@@ -277,7 +277,7 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-vRtjFWaTxkesALV\/7Yun4z0lllH0peiEVz4zNpuEzrM=",
+      "hash": "sha256-\/gLifC9v0NG5yOtZVG8pvWuzOf3DCkw4MWmgSWX3VQ8=",
       "url": "_framework\/_bin\/do-one-action.pdb"
     },
     {
@@ -297,9 +297,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-CE2btgvXzQaxcQT9ExJUGyJpH\/bhoSuVXwEeClkjv80=",
+      "hash": "sha256-QCqlxjLlj7WF1F8bZJHd\/bgykEe8LXutrni0wt6rpZI=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "C1jxF\/ua"
+  "version": "0GcYls3S"
 };

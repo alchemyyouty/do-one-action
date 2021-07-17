@@ -103,6 +103,9 @@ using do_one_action.Components.Atom;
     public string ButtonText { get; set; } = "defalut text";
 
     [Parameter]
+    public string Link { get; set; } = "#";
+
+    [Parameter]
     public EventCallback<MouseEventArgs> ClickEvent { get; set; }
 
 #line default

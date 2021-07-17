@@ -1,9 +1,12 @@
-﻿<input type="button" @onclick="ClickEvent" value="@ButtonText" />
+﻿<input type="button" @onclick="ClickEvent" value="@ButtonText" role="button"/>
 
 @code
 {
     [Parameter]
     public string ButtonText { get; set; } = "defalut text";
+
+    [Parameter]
+    public string Link { get; set; } = "#";
 
     [Parameter]
     public EventCallback<MouseEventArgs> ClickEvent { get; set; }
