@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{F7FE7634-A18B-4B42-995E-119937F59F14}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="_Imports.razor">
+    <Files>
+      <File FileName="Shared/NavMenu.razor" Line="17" Column="1" />
+      <File FileName="Pages/Index.razor" Line="5" Column="1" />
+      <File FileName="_Imports.razor" Line="10" Column="1" />
+      <File FileName="Components/Atom/BaseButton.razor" Line="8" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="do-one-action" expanded="True">
+            <Node name="do-one-action" expanded="True">
+              <Node name="Components" expanded="True">
+                <Node name="Atom" expanded="True" />
+              </Node>
+              <Node name="Pages" expanded="True" />
+              <Node name="Shared" expanded="True" />
+              <Node name="_Imports.razor" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.do-one-action PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
