@@ -98,10 +98,11 @@ using do_one_action.Components.Atom;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "C:\Users\ysspe\Desktop\WorkSpace\do-one-action\Pages\Index.razor"
+#line 13 "C:\Users\ysspe\Desktop\WorkSpace\do-one-action\Pages\Index.razor"
  
-    public string EntryButton { get; set; } = "Create the goal";
-    public string EntryLink { get; set; } = "counter";
+    public string EntryButtonText { get; set; } = "Create the goal";
+    public string BackLink { get; set; } = "/";
+    public string EntryLink { get; set; } = "createAction/step01";
 
     private void CallConsole(MouseEventArgs e)
     {

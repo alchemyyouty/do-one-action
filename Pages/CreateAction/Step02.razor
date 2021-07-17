@@ -1,0 +1,25 @@
+﻿@page "/createAction/step02"
+
+<header>
+    <BackButton BackLink="@BackLink"></BackButton>
+</header>
+
+<main class="mt-5">
+    <h2 class="text-center">What do you do first?</h2>
+
+    <div class="text-center">
+        <DoOnePurpleButton Link="@EntryLink" ClickEvent="@CallConsole" ButtonText="@EntryButtonText"/>
+    </div>
+
+</main>
+
+@code {
+    public string EntryButtonText { get; set; } = "Confirm the action";
+    public string BackLink { get; set; } = "createAction/step01";
+    public string EntryLink { get; set; } = "/";
+
+    private void CallConsole(MouseEventArgs e)
+    {
+        Console.WriteLine("Clicked!", e);
+    }
+}

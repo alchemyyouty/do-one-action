@@ -2,16 +2,18 @@
 
 <div class="container mt-5">
     <h1 class="text-center">Do One Action</h1>
+
+    <div class="text-center">
+        <DoOnePurpleButton Link="@EntryLink" ClickEvent="@CallConsole" ButtonText="@EntryButtonText" />
+    </div>
 </div>
 
-<NavLink href="@EntryLink" Match="NavLinkMatch.All">
-    <BaseButton ClickEvent="@CallConsole" ButtonText="@EntryButton"></BaseButton>
-</NavLink>
 
 @code
 {
-    public string EntryButton { get; set; } = "Create the goal";
-    public string EntryLink { get; set; } = "counter";
+    public string EntryButtonText { get; set; } = "Create the goal";
+    public string BackLink { get; set; } = "/";
+    public string EntryLink { get; set; } = "createAction/step01";
 
     private void CallConsole(MouseEventArgs e)
     {

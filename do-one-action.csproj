@@ -21,8 +21,4 @@
     <None Remove="Components\" />
     <None Remove="Components\Atom\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Components\" />
-    <Folder Include="Components\Atom\" />
-  </ItemGroup>
 </Project>

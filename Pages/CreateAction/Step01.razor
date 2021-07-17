@@ -1,0 +1,25 @@
+﻿@page "/createAction/step01"
+
+<header>
+    <BackButton BackLink="@BackLink"></BackButton>
+</header>
+
+<main class="mt-5">
+    <h2 class="text-center">First, let's set the Goal</h2>
+
+    <div class="text-center">
+        <DoOnePurpleButton Link="@EntryLink" ClickEvent="@CallConsole" ButtonText="@EntryButtonText"/>
+    </div>
+
+</main>
+
+@code {
+    public string EntryButtonText { get; set; } = "Subdivide the action";
+    public string BackLink { get; set; } = "/";
+    public string EntryLink { get; set; } = "createAction/step02";
+
+    private void CallConsole(MouseEventArgs e)
+    {
+        Console.WriteLine("Clicked!", e);
+    }
+}
