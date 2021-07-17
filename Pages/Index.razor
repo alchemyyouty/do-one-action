@@ -1,12 +1,20 @@
 ﻿@page "/"
-@using do_one_action.Components.Atom
 
-<h1>Do One Action</h1>
+<div class="container mt-5">
+    <h1 class="text-center">Do One Action</h1>
 
-<BaseButton DefalutEvent="@CallConsole"></BaseButton>
+    <div class="text-center">
+        <DoOnePurpleButton Link="@EntryLink" ClickEvent="@CallConsole" ButtonText="@EntryButtonText" />
+    </div>
+</div>
+
 
 @code
 {
+    public string EntryButtonText { get; set; } = "Create the goal";
+    public string BackLink { get; set; } = "/";
+    public string EntryLink { get; set; } = "createAction/step01";
+
     private void CallConsole(MouseEventArgs e)
     {
         Console.WriteLine("Clicked!", e);

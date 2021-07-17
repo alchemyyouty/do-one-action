@@ -1,0 +1,17 @@
+﻿
+<NavLink href="@Link" Match="NavLinkMatch.All">
+    <input class="btn btn-primary" type="button" @onclick="ClickEvent" value="@ButtonText" role="button" />
+</NavLink>
+
+@code
+{
+
+    [Parameter]
+    public string ButtonText { get; set; } = "defalut text";
+
+    [Parameter]
+    public string Link { get; set; } = "/";
+
+    [Parameter]
+    public EventCallback<MouseEventArgs> ClickEvent { get; set; }
+}
